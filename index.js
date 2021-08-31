@@ -32,4 +32,4 @@ else if (message.content === 'marsh' ||message.content === 'Marsh'||message.cont
 	message.channel.send('get rekked');
 }
 });
-client.login();
+client.login(process.env.BOT_TOKEN);
