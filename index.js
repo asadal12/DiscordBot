@@ -31,5 +31,11 @@ message.channel.send('Who are you Exactly?');
 else if (message.content === 'marsh' ||message.content === 'Marsh'||message.content === 'MARSH') {
 	message.channel.send('get rekked');
 }
+	else if (message.content === 'Fuck if'||message.content === 'fuck if') {
+	message.channel.send('you cant even swear the right way');
+}
+		else if (message.content === 'patients'||message.content === 'Patients') {
+	message.channel.send('@Melissa is this a hospital?');
+}
 });
 client.login(process.env.BOT_TOKEN);
